@@ -13,7 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <div id="example"></div>
+                    <script src="{{asset('js/app.js')}}" ></script>
                     You are logged in!
                 </div>
             </div>
